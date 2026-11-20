@@ -1,0 +1,34 @@
+# PRACTICAL: Floyd-Warshall Algorithm
+
+## Aim
+To write a Python program to implement the Floyd-Warshall algorithm for finding the shortest paths between all pairs of vertices in a weighted graph.
+
+## Introduction
+The Floyd-Warshall algorithm is a shortest-path algorithm used in graph theory. It finds the shortest distances between every pair of vertices in a weighted graph.
+
+It follows the Dynamic Programming approach and works with directed or undirected weighted graphs. It can also handle negative edge weights, but not negative weight cycles.
+
+## Algorithm
+1. Start with the adjacency matrix of the graph.
+2. Initialize the distance matrix using the given graph.
+3. Consider each vertex as an intermediate vertex.
+4. Check whether the path through the intermediate vertex is shorter.
+5. Update the distance matrix if a shorter path is found.
+6. Repeat the process for all vertices.
+7. Display the final shortest distance matrix.
+
+## Time Complexity
+- Time Complexity: O(V³)
+- Space Complexity: O(V²)
+
+Where V represents the number of vertices in the graph.
+
+## Applications
+- Finding shortest routes in transportation networks.
+- Network routing and communication systems.
+- Road map navigation.
+- Graph analysis.
+- Transportation planning.
+
+## Conclusion
+The Floyd-Warshall algorithm successfully finds the shortest distances between all pairs of vertices in a weighted graph. It uses Dynamic Programming to improve paths through intermediate vertices and produces the final shortest distance matrix.
